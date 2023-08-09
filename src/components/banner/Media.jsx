@@ -1,7 +1,13 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaYoutube, FaSnapchatGhost, FaInstagram } from "react-icons/fa";
 import { SiTelegram, SiFigma, SiTiktok } from "react-icons/si";
+import toast, { Toaster } from 'react-hot-toast';
+
 const Media = () => {
+
+  const youtubeToast = () => toast.success('Comming Soon');
+
+
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
@@ -15,7 +21,7 @@ const Media = () => {
             <a target='_blank' rel="noreferrer" href='https://instagram.com/tumi_tumi.rs?' className="bannerIcon">
             <FaInstagram />
             </a>
-            <span className="bannerIcon">
+            <span onClick={youtubeToast} className="bannerIcon">
               <FaYoutube />
             </span>
           </div>
