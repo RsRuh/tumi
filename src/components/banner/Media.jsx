@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaFacebookF, FaTwitter, FaYoutube, FaSnapchatGhost, FaInstagram } from "react-icons/fa";
+import { SiTelegram, SiFigma, SiTiktok } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -9,34 +9,34 @@ const Media = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
+            <a target='_blank' rel="noreferrer" href='https://www.facebook.com/profile.php?id=100095187627858' className="bannerIcon">
               <FaFacebookF />
-            </span>
+            </a>
+            <a target='_blank' rel="noreferrer" href='https://instagram.com/tumi_tumi.rs?' className="bannerIcon">
+            <FaInstagram />
+            </a>
             <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
+              <FaYoutube />
             </span>
           </div>
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST SKILL ON
+            Also In
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
-            </span>
+            <a target='_blank' rel="noreferrer" href='https://twitter.com/tumi_rs' className="bannerIcon">
+            <FaTwitter />
+            </a>
+            <a target='_blank' rel="noreferrer" href='https://www.tiktok.com/@tumi_rs' className="bannerIcon">
+            <SiTiktok />
+            </a>
+            <a target='_blank' rel="noreferrer" href='https://t.me/tumi_official' className="bannerIcon">
+            <SiTelegram />
+            </a>
+            <a target='_blank' rel="noreferrer" href='https://www.snapchat.com/add/tumi_rs' className="bannerIcon">
+            <FaSnapchatGhost />
+            </a>
           </div>
         </div>
       </div>

@@ -17,22 +17,25 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Nowrin Jahan Nila"
+            subTitle="Ailchara College, Kushtia"
+            postLink="https://www.facebook.com/permalink.php?story_fbid=pfbid02y8rudcTfeAYxgCbTnB9v2wywFfSkLWYopuc5NSPgMeG3HTGTzSoMe7EYTg49HXvYl&id=100010465983769"
+            des="এক সাথে ২০ টাকার ঝালমুড়ি কিনার চেয়ে
+            ৫ টাকার করে ৪ বার কিনেন বিশ্বাস করেন বেশি পাইবেন..🙂"
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Nidhi Afrin Safa"
+            subTitle="Begum Badrunnessa Govd. Girls' College."
+            postLink="https://www.facebook.com/permalink.php?story_fbid=pfbid02ceyxsCD3mQtnLYe2ki9p5n2cTWMdLGRwUsgRLixv53dvfgzM8mVHEygNQi2oHv5Wl&id=100095187627858"
+            des="__ღ᭄বৃষ্টি আপুর মনে হয় ব্রেকাপ হইছেღ۵🥺࿐
+            __ღ᭄তাই এতো কান্না কাটি করছে...🌧️🌧️"
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Safa Rahman"
+            subTitle="Eden Mohila College, Dhaka"
+            postLink="https://www.facebook.com/permalink.php?story_fbid=pfbid037GkvjLfq8HQeAJbkF675RfpcqZber2aBXnDdF4iEo1Mmcs4xznJiG78fHmhYDxegl&id=100095187627858"
+            des="-
+            -- কেও কল্পনাতে পেয়ে আগলে রাখে ღ᭄∘࿐ ❥༊-আর....!! ❥༊-কেউ বাস্তবে পেয়েও অবহেলা করে...🥀✨💫🥀"
           />
         </div>
       </div>
@@ -45,22 +48,29 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Tamanna Tammu"
+            subTitle="Alampur Baliapara School & College"
+            postLink="https://www.facebook.com/permalink.php?story_fbid=pfbid024ab6nkJGzGpvukXUJ7x4tRQjS9gwzxxgCgb9SMg2qKBP8Ey7awV6JhtBVqaSPfQfl&id=100095187627858"
+            des="নতুন একটা 𝐄𝐧𝐠𝐥𝐢𝐬𝐡 শিখলাম!🙂
+            '𝐁𝐓𝐕' মানে.!🌚
+            𝐁𝐚𝐛u 𝐓𝐨𝐦𝐚𝐤𝐞 𝐕𝐚𝐥𝐨𝐛𝐚𝐬𝐢.!🐸"
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Tashfia Tisha"
+            subTitle="Begum Badrunnessa Government Girls' College"
+            postLink="https://www.facebook.com/permalink.php?story_fbid=pfbid02G38d9yrt7r92uLHKhHT52gbU3qMSvUNX4yV4pjQ7TZNm1b9L4bv1GqyBjmCoGZ3gl&id=100095187627858"
+            des="❥一༊❝উড়ন্ত ফানুস আর বহুরূপী মানুষ,
+            দুটোর শুরুতেই আনন্দ❥一一一一一༊ এবং শেষটা আতঙ্কিত।
+            ༉彡🖤🖤"
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Morioum Subah"
+            subTitle="Begum Badrunnessa Government Girls' College"
+            postLink="https://www.facebook.com/permalink.php?story_fbid=pfbid02Ga9XsYCsmu2xfqow9kBH2F6X3jcvYssWHuj6MkT9DJVgeoh2XSFP4QWLQjEGcXXQl&id=100095187627858"
+            des="❥一༊❝মন থেকে চাওয়া জিনিষ গুলো༉彡
+            মন
+            খারাপ এর কারণ হয়ে দাঁড়ায়,,,!
+            ༉彡🖤"
           />
         </div>
       </div>

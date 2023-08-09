@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from '../layouts/Title'
-import { testimonialOne,testimonialTwo, quote } from "../../assets";
+import { testimonialOne,testimonialTwo, testimonialThree, quote } from "../../assets";
 
 
 function SampleNextArrow(props) {
@@ -93,7 +93,7 @@ const Testimonial = () => {
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="WHAT CLIENTS SAY" des="Testimonial" />
+        <Title title="WHAT'S OUR MEMBERS SAY" des="Testimonial" />
       </div>
       <div className="max-w-6xl mx-auto">
         {/* ================ Slider One ================== */}
@@ -107,12 +107,12 @@ const Testimonial = () => {
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                  <h3 className="text-2xl text-designColor font-bold">Siam Ahmed</h3>
+                  <p className="text-xs text- tracking-wide mb-2">
+                  siamahmed@gmail.com
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
-                  <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                  <p className="text-base tracking-wide">
+                  Group Member
                   </p>
                 </div>
               </div>
@@ -158,12 +158,12 @@ const Testimonial = () => {
                   alt="testimonialTwo"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                  <h3 className="text-2xl text-designColor font-bold">Tawsif Mahbub</h3>
+                  <p className="text-xs tracking-wide mb-2">
+                  tawsifmahbub@gmail.com
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
-                  <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                  <p className="text-base tracking-wide ">
+                    Group Member
                   </p>
                 </div>
               </div>
@@ -205,16 +205,16 @@ const Testimonial = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialOne}
+                  src={testimonialThree}
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                  <h3 className="text-2xl text-designColor font-bold">Afran Nisho</h3>
+                  <p className="text-xs tracking-wide mb-2">
+                  afrannisho@gmail.com
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
-                  <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                  <p className="text-base tracking-wide ">
+                    Group Member
                   </p>
                 </div>
               </div>

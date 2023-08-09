@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -11,46 +11,58 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
-          des="My Projects"
+          title="VISIT OUR ADMINS & MODERATORS PROFILE"
+          des="OUR ADMINS & MODERATORS"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
+          title="Nowrin Jahan Nila"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
+          idLink="https://www.facebook.com/profile.php?id=100010465983769"
+          role="Admin"
         />
         <ProjectsCard
-          title="E-commerce Website"
+          title=""
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectTwo}
+          idLink="https://www.facebook.com/profile.php?id=100090619907863"
+          role="Admin"
         />
         <ProjectsCard
-          title="Chatting App"
+          title="Nidhi Afrin Safa"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
+          idLink="https://www.facebook.com/profile.php?id=100087741426969"
+          role="Admin"
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
+          title="Safa Rahman"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          src={projectFour}
+          idLink="https://www.facebook.com/eyasfi.jui.i/"
+          role="Moderator"
         />
         <ProjectsCard
-          title="E-commerce Website"
+          title="Tamanna Tammu"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          src={projectFive}
+          idLink="https://www.facebook.com/profile.php?id=100095292459920"
+          role="Moderator"
         />
         <ProjectsCard
-          title="Chatting App"
+          title="Tashfia Tisha"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          src={projectSix}
+          idLink="https://www.facebook.com/profile.php?id=100095317188442"
+          role="Moderator"
         />
       </div>
     </section>
