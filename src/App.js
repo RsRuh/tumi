@@ -1,4 +1,6 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
 import Features from "./components/features/Features";
@@ -8,6 +10,8 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import Testimonial from "./components/tesimonial/Testimonial";
+
+AOS.init();
 
 function App() {
   return (

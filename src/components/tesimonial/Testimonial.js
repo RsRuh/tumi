@@ -1,9 +1,9 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import Slider from "react-slick";
 import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from '../layouts/Title'
-import { testimonialOne,testimonialTwo, testimonialThree, quote } from "../../assets";
+import { testimonialOne, testimonialTwo, testimonialThree, quote } from "../../assets";
 
 
 function SampleNextArrow(props) {
@@ -31,62 +31,62 @@ function SamplePrevArrow(props) {
 }
 
 const Testimonial = () => {
-      const [dotActive, setDocActive] = useState(0);
-     const settings = {
-       dots: true,
-       infinite: true,
-       speed: 500,
-       slidesToShow: 1,
-       slidesToScroll: 1,
-       nextArrow:<SampleNextArrow />,
-       prevArrow:<SamplePrevArrow />,
-       beforeChange: (prev, next) => {
-         setDocActive(next);
-       },
-       appendDots: (dots) => (
-         <div
-           style={{
-             borderRadius: "10px",
-             padding: "10px",
-           }}
-         >
-           <ul
-             style={{
-               display: "flex",
-               gap: "15px",
-               justifyContent: "center",
-               marginTop: "20px",
-             }}
-           >
-             {" "}
-             {dots}{" "}
-           </ul>
-         </div>
-       ),
-       customPaging: (i) => (
-         <div
-           style={
-             i === dotActive
-               ? {
-                   width: "12px",
-                   height: "12px",
-                   color: "blue",
-                   background: "#ff014f",
-                   borderRadius: "50%",
-                   cursor: "pointer",
-                 }
-               : {
-                   width: "12px",
-                   height: "12px",
-                   color: "blue",
-                   background: "gray",
-                   borderRadius: "50%",
-                   cursor: "pointer",
-                 }
-           }
-         ></div>
-       ),
-     };
+  const [dotActive, setDocActive] = useState(0);
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    beforeChange: (prev, next) => {
+      setDocActive(next);
+    },
+    appendDots: (dots) => (
+      <div
+        style={{
+          borderRadius: "10px",
+          padding: "10px",
+        }}
+      >
+        <ul
+          style={{
+            display: "flex",
+            gap: "15px",
+            justifyContent: "center",
+            marginTop: "20px",
+          }}
+        >
+          {" "}
+          {dots}{" "}
+        </ul>
+      </div>
+    ),
+    customPaging: (i) => (
+      <div
+        style={
+          i === dotActive
+            ? {
+              width: "12px",
+              height: "12px",
+              color: "blue",
+              background: "#ff014f",
+              borderRadius: "50%",
+              cursor: "pointer",
+            }
+            : {
+              width: "12px",
+              height: "12px",
+              color: "blue",
+              background: "gray",
+              borderRadius: "50%",
+              cursor: "pointer",
+            }
+        }
+      ></div>
+    ),
+  };
   return (
     <section
       id="testimonial"
@@ -109,10 +109,10 @@ const Testimonial = () => {
                 <div className="w-full flex flex-col justify-end">
                   <h3 className="text-2xl text-designColor font-bold">Siam Ahmed</h3>
                   <p className="text-xs text- tracking-wide mb-2">
-                  siamahmed@gmail.com
+                    siamahmed@gmail.com
                   </p>
                   <p className="text-base tracking-wide">
-                  Group Member
+                    Group Member
                   </p>
                 </div>
               </div>
@@ -121,11 +121,11 @@ const Testimonial = () => {
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
-                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                      <h3 className="text-xl lgl:text-2xl text-center font-medium tracking-wide">
+                        𝐓𝐮𝐦<span className='text-designColor'>𝐢</span> - তুমি <span className='text-designColor font-bold'>ツ</span>
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Facebook - Aug 10, 2023
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -160,7 +160,7 @@ const Testimonial = () => {
                 <div className="w-full flex flex-col justify-end">
                   <h3 className="text-2xl text-designColor font-bold">Tawsif Mahbub</h3>
                   <p className="text-xs tracking-wide mb-2">
-                  tawsifmahbub@gmail.com
+                    tawsifmahbub@gmail.com
                   </p>
                   <p className="text-base tracking-wide ">
                     Group Member
@@ -172,11 +172,11 @@ const Testimonial = () => {
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
-                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                      <h3 className="text-xl lgl:text-2xl text-center font-medium tracking-wide">
+                        𝐓𝐮𝐦<span className='text-designColor'>𝐢</span> - তুমি <span className='text-designColor font-bold'>ツ</span>
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Facebook - Aug 10, 2023
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -211,7 +211,7 @@ const Testimonial = () => {
                 <div className="w-full flex flex-col justify-end">
                   <h3 className="text-2xl text-designColor font-bold">Afran Nisho</h3>
                   <p className="text-xs tracking-wide mb-2">
-                  afrannisho@gmail.com
+                    afrannisho@gmail.com
                   </p>
                   <p className="text-base tracking-wide ">
                     Group Member
@@ -223,11 +223,11 @@ const Testimonial = () => {
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
-                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                      <h3 className="text-xl lgl:text-2xl text-center font-medium tracking-wide">
+                        𝐓𝐮𝐦<span className='text-designColor'>𝐢</span> - তুমি <span className='text-designColor font-bold'>ツ</span>
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Facebook - Aug 10, 2023
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">

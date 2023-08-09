@@ -11,7 +11,7 @@ const LeftBanner = () => {
     delaySpeed: 2000,
   });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div data-aos="fade-down" className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className="text-xs md:text-lg font-normal">WELCOME TO <span className='font-bold text-white md:text-2xl'>𝐓𝐮𝐦<span className='text-designColor'>𝐢</span> - তুমি <span className='text-designColor'>ツ</span></span></h4>
         <h1 className="md:text-6xl text-xl font-bold text-white">

@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFacebookF, FaTwitter, FaYoutube, FaSnapchatGhost, FaInstagram } from "react-icons/fa";
 import { SiTelegram, SiFigma, SiTiktok } from "react-icons/si";
 import toast, { Toaster } from 'react-hot-toast';
+import { RiTeamFill } from "react-icons/ri";
 
 const Media = () => {
 
@@ -18,12 +19,12 @@ const Media = () => {
             <a target='_blank' rel="noreferrer" href='https://www.facebook.com/profile.php?id=100095187627858' className="bannerIcon">
               <FaFacebookF />
             </a>
-            <a target='_blank' rel="noreferrer" href='https://instagram.com/tumi_tumi.rs?' className="bannerIcon">
+            <a target='_blank' rel="noreferrer" href='https://instagram.com/tumi_tumi.rs' className="bannerIcon">
             <FaInstagram />
             </a>
-            <span onClick={youtubeToast} className="bannerIcon">
-              <FaYoutube />
-            </span>
+            <a target='_blank' rel="noreferrer" href='https://www.facebook.com/groups/641642784610474' className="bannerIcon">
+              <RiTeamFill />
+            </a>
           </div>
         </div>
         <div>
