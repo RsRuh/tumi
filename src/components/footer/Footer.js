@@ -32,8 +32,8 @@ const Footer = () => {
           </li>
           
           <li>
-            <a href='https://www.facebook.com/profile.php?id=100090619907863' target='_blank' rel="noreferrer" className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              __________________
+            <a href='https://www.facebook.com/profile.php?id=100095354566399' target='_blank' rel="noreferrer" className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Mithila Afrin
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </a>
           </li>

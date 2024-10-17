@@ -26,11 +26,11 @@ const Projects = () => {
           role="Admin"
         />
         <ProjectsCard
-          title=""
+          title="Mithila Afrin"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectTwo}
-          idLink="https://www.facebook.com/profile.php?id=100090619907863"
+          idLink="https://www.facebook.com/profile.php?id=100095354566399"
           role="Admin"
         />
         <ProjectsCard
